@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PI_P1_1_Rectangulo
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
