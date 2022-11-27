@@ -10,7 +10,8 @@ namespace PI_P1_1_Rectangulo
     {
         static void Main(string[] args)
         {
-
+            
+            
         }
     }
 }

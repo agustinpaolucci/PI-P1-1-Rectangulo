@@ -9,31 +9,31 @@ namespace PI_P1_1_Rectangulo
     public class Rectangulo
     {
 		// ATRIBUTOS PRIVADOS
-		private int baseR;
-        private int alturaR;
-		private int perimetro;
-		private int superficie;
+		private double baseR;
+        private double alturaR;
+		private double perimetro;
+		private double superficie;
 
 		// PROPIEDADES PUBLICAS
-        public int BaseR
+        public double BaseR
 		{
 			get { return baseR; }
 			set { baseR = value; }
 		}
 
-		public int AlturaR
+		public double AlturaR
 		{
 			get { return alturaR; }
 			set { alturaR = value; }
 		}
 
-		public int Perimetro
+		public double Perimetro
 		{
 			get { return perimetro; }
 			set { perimetro = value; }
 		}
 		
-		public int Superficie
+		public double Superficie
 		{
 			get { return superficie; }
 			set { superficie = value; }
@@ -50,7 +50,7 @@ namespace PI_P1_1_Rectangulo
 
         // METODOS. 
         // CONSTRUCTOR CON PARAMETROS.
-        public Rectangulo(int baseR, int alturaR)
+        public Rectangulo(double baseR, double alturaR)
 		{
 			this.baseR = baseR;
 			this.alturaR = alturaR;
@@ -58,18 +58,17 @@ namespace PI_P1_1_Rectangulo
 
         // METODO PARA CALCULAR EL PERIMETRO DEL CUADRADO
 		
-		public int CalcularPerimetro()
+		public double CalcularPerimetro()
 		{
 			perimetro = (baseR * 2) + (alturaR * 2);
 			return perimetro;
 		}
 
-        public int CalcularSuperficie()
+        public double CalcularSuperficie()
         {
             superficie = baseR * alturaR;
             return superficie;
         }
-
 
 
         //METODO TO STRING
